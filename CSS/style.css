@@ -1,0 +1,749 @@
+/* To Start Main Rules */
+body{background-color: #888;}
+.container{width: 1170px;margin: auto;}
+/* To End Main Rules */
+
+/*----------------------------*/
+
+
+/* Start Header Rules */
+
+.header .nav-bar{background-color: #252F31;overflow: hidden;}
+.header .nav-bar ul
+{
+    list-style: none;
+    float: right;
+    overflow: hidden;
+    padding-left: 0;
+}
+.header .nav-bar ul li
+{
+    font-size: 15px;
+    color: #FFF;
+    display: inline-block;
+    padding: 10px;
+    transition: 0.6s;
+    text-transform: uppercase;
+}
+.header .nav-bar ul li:hover{cursor: pointer;color: limegreen;}
+.caption::before
+{
+    content: 'F';
+    background-color: #888;
+    color: white;
+    padding: 1px 5px;
+    margin-right: 5px;
+}
+.caption
+{
+    float: left;
+    text-transform: uppercase;
+    color: white;
+}
+.caption span{color: limegreen;}
+.header .slider
+{
+    height: 600px;
+    background-color: #EEE;
+    background-image: url(../images/gogreen.jpg);
+    background-size: cover;
+    overflow: hidden;
+}
+.header .slider .intro
+{
+    color: white;
+    text-align: center;
+    padding-top: 250px;
+}
+.header .slider .intro h2
+{
+    margin: 0 auto;
+    width: 700px;
+    font-size: 50px;
+    font-weight: bold;
+    letter-spacing: 5px;
+    border-top: 1px solid white;
+    border-bottom: 1px solid white;   
+}
+.header .slider .container .btn
+{
+    padding-top: 40px;
+    text-align: center;
+}
+.header .slider .container .btn button
+{
+    background-color: transparent;
+    border: 1.5px solid whitesmoke;
+    color: whitesmoke;
+    width: 125px;
+    height: 40px;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 8px;
+    transition: 1.2s;
+}
+.header .slider .container .btn button:hover
+{
+    color: black;
+    border: 1.5px solid black;
+    text-decoration: underline;
+    cursor: pointer;
+}
+/* End Header Rules */
+
+/* Start Features Rules */
+.Features
+{
+    background-color: #FFF;
+    padding-left: 0;
+    padding-top: 30px;
+    padding-bottom: 40px;
+}
+.Features .col1
+{
+    width: 345px;
+    display: inline-block;
+    padding: 10px;
+    margin: 8px;
+    height: 150px;
+}
+.Features .col1 .label
+{
+    color: dimgrey;
+    font-weight: bold;
+    font-family: monospace;
+    text-transform: uppercase;
+}
+.Features .col1 p
+{
+    margin-left: 2px;
+    line-height: 1.4;
+    color: #888;
+}
+/* End Features Rules */
+
+/* Start About Me Rules */
+.about-me
+{
+    background-color: #FFF;
+    overflow: hidden;
+}
+.about-me .container
+{
+    background-color: #FFF;
+    overflow: hidden;
+}
+.about-me .image
+{
+    float: left;
+    overflow: hidden;
+    width: 40%;
+}
+.about-me .image img
+{
+    width: 100%;
+    height: 100%;
+    filter: grayscale(1) opacity(0.8);
+}
+.about-me .image img:hover
+{
+    filter: grayscale(0);
+    opacity: 1;
+}
+.about-me .info
+{
+    width: 50%;
+    overflow: hidden;
+    float: left;
+    background-color: #f2f2f2;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+.about-me .info .classes
+{
+    width: 100%;
+}
+.about-me .info .classes .start
+{
+    width: 40%;
+    padding: 2px;
+    display: inline-block;
+}
+.about-me .info p
+{
+    line-height: 1.5;
+}
+.about-me .start i
+{
+    color: limegreen;
+    display: inline-block;
+    padding-right: 15px;
+}
+.about-me .start h2
+{
+    display: inline-block;
+}
+.about-me .classes
+{
+    padding-bottom: 21px;
+}
+.about-me .info .label
+{
+    text-transform: uppercase;
+}
+/* End About Me Rules */
+
+/* Start My Skills Rules */
+.My-Skills
+{
+    overflow: hidden;
+    background-color: #FFF;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+.My-Skills .container
+{
+    overflow: hidden;
+    background-color: #FFF;
+}
+.My-Skills .container .Skills-Info
+{
+    width: 50%;
+    float: left;
+}
+.My-Skills .container .Skills-Rate
+{
+    width: 45%;
+    float: left;
+}
+.My-Skills .container .Skills-Info button
+{
+    color: limegreen;
+    border: 2px solid limegreen;
+    background-color: transparent;
+    font-size: 18px;
+    transition: 2s;
+    width: 155px;
+    height: 50px;
+    text-transform: uppercase;
+}
+.My-Skills .container .Skills-Info button:hover
+{
+    color: white;
+    border: 1px solid white;
+    background-color: limegreen;
+    font-weight: bold;
+}
+.My-Skills .container .Skills-Rate
+{
+    padding-left: 55px;
+    margin-top: 80px;
+}
+.My-Skills .container .Skills-Rate .rate h3
+{
+    color: #555;
+    text-transform: uppercase;
+}
+.My-Skills .container .Skills-Rate .rate progress
+{
+    width: 80%;
+    height: 25px;
+    display: block;
+    -webkit-appearance: none;
+	border: none;
+}
+progress::-webkit-progress-bar {
+	background: #EEE;
+	border-radius: 50px;
+	padding: 2px;
+	box-shadow: 0 1px 0px 0 rgba(255, 255, 255, 0.2);
+}
+progress::-webkit-progress-value {
+	border-radius: 50px;
+	box-shadow: inset 0 1px 1px 0 rgba(255, 255, 255, 0.8);
+	background-color: lightgreen;
+   background-size: 25px 14px, 100% 100%, 100% 100%;
+   -webkit-animation: move 10s linear 0 infinite;
+}
+@-webkit-keyframes move {
+	0% {background-position: 0px 0px, 0 0, 0 0}
+	100% {background-position: -100px 0px, 0 0, 0 0}
+}
+.My-Skills .container .Skills-Info h2
+{
+    color: #555;
+    text-transform: uppercase;
+    font-family: serif;
+    margin-bottom: 50px;
+}
+.My-Skills .container .Skills-Info p
+{
+    line-height: 1.5;
+    color: #828282;
+}
+/* End My Skills Rules */
+
+/* Start Resume Rules */
+.Resume
+{
+    background-color: #EEE;
+    overflow: hidden;
+}
+.Resume .container
+{
+    overflow: hidden;
+    background-color: #EEE;
+    text-align: center;
+}
+.Resume .container .Title
+{
+    color: #555;
+    padding-top: 80px;
+    padding-bottom: 20px;
+    font-weight: bold;
+    font-size: 25px;
+    text-transform: uppercase;
+    font-family: sans-serif;
+}
+.Resume .container .paragraph
+{
+    padding-bottom: 30px;
+    line-height: 1.5;
+    color: #828282;
+    font-size: 15px;
+}
+.Resume .container .button
+{
+    padding-bottom: 70px;
+}
+.Resume .container .button button
+{
+    text-transform: uppercase;
+    background-color: transparent;
+    color: #60E5A2;
+    border: 2px solid #60E5A2;
+    padding: 5px;
+    font-weight: bold;
+    transition: 2s;
+    height: 60px;
+}
+.Resume .container .button button:hover
+{
+    background-color: #60E5A2;
+    color: white;
+}
+/* End Resume Rules */
+
+/* Start My Education */
+.My-Education
+{
+    overflow: hidden;
+    background-color: #FFF;
+    padding-top: 80px;
+}
+.My-Education .container
+{
+    overflow: hidden;
+    background-color: #FFF;
+}
+.My-Education .container .leftDesc
+{
+    float: left;
+    width: 50%;
+    padding-right: 30px;
+}
+.My-Education .container .rightDesc
+{
+    float: left;
+    width: 47%;
+    overflow: hidden;
+}
+.My-Education .container .leftDesc h1
+{
+    color: #555;
+    font-family: sans-serif;
+    text-transform: uppercase;
+}
+.My-Education .container .leftDesc p
+{
+    color: #828282;
+}
+.My-Education .container .leftDesc p:first-of-type
+{
+    padding-bottom: 20px;
+}
+.My-Education .container .rightDesc .section
+{
+    width: 100%;
+}
+.My-Education .container .rightDesc .section h2
+{
+    color: #333;
+    text-transform: uppercase;
+}
+.My-Education .container .rightDesc .section p
+{
+    color: #555;
+    width: 90%;
+    line-height: 1.6;
+}
+
+.My-Education .container .rightDesc .section p:last-child
+{
+    padding-bottom: 50px;
+}
+.My-Education .container .rightDesc .section span
+{
+    background-color: #60E5A2;
+    color: #FFF;
+    font-weight: bold;
+    padding: 5px 8px;
+    border-radius: 2px;
+}
+.My-Education hr
+{
+    color: #828282;
+    width: 85%;
+    background-color: #828282;
+    border: 1px solid #828282;
+}
+.My-Education .container .rightDesc .section hr
+{
+    color: #828282;
+    width: 100%;
+    background-color: #828282;
+    border: 1px solid #828282;
+}
+/* End My Education */
+
+/* Start My Experince */
+.My-Experince
+{
+    overflow: hidden;
+    background-color: #FFF;
+    padding-top: 80px;
+}
+.My-Experince .container
+{
+    overflow: hidden;
+    background-color: #FFF;
+}
+.My-Experince .container .leftDesc
+{
+    float: left;
+    width: 50%;
+    padding-right: 30px;
+}
+.My-Experince .container .rightDesc
+{
+    float: left;
+    width: 47%;
+    overflow: hidden;
+}
+.My-Experince .container .leftDesc h1
+{
+    color: #555;
+    font-family: sans-serif;
+    text-transform: uppercase;
+}
+.My-Experince .container .leftDesc p
+{
+    color: #828282;
+}
+.My-Experince .container .leftDesc p:first-of-type
+{
+    padding-bottom: 20px;
+}
+.My-Experince .container .rightDesc .section
+{
+    width: 100%;
+}
+.My-Experince .container .rightDesc .section h2
+{
+    color: #333;
+    text-transform: uppercase;
+}
+.My-Experince .container .rightDesc .section p
+{
+    color: #555;
+    width: 90%;
+    line-height: 1.6;
+}
+
+.My-Experince .container .rightDesc .section p:last-child
+{
+    padding-bottom: 50px;
+}
+.My-Experince .container .rightDesc .section span
+{
+    background-color: #60E5A2;
+    color: #FFF;
+    font-weight: bold;
+    padding: 5px 8px;
+    border-radius: 2px;
+}
+.My-Experince hr
+{
+    color: #828282;
+    width: 85%;
+    background-color: #828282;
+    border: 1px solid #828282;
+}
+.My-Experince .container .rightDesc .section hr
+{
+    color: #828282;
+    width: 100%;
+    background-color: #828282;
+    border: 1px solid #828282;
+}
+/* End My Experince */
+
+/* Start Testmentials */
+.Testmenials
+{
+    background-color: #EEE;
+    overflow: hidden;
+}
+.Testmenials .container
+{
+    background-color: #EEE;
+    overflow: hidden;
+}
+.Testmenials .container .parag
+{
+    padding-top: 80px;
+    padding-right: 120px;
+    padding-left: 120px;
+    padding-bottom: 40px;
+    text-align: center;
+    width: 80%;
+    color: #828282;
+    line-height: 1.7;
+}
+.Testmenials .container .caption2
+{
+    text-align: center;
+    font-size: 17px;
+    color: darkslategray;
+    font-weight: bold;
+    padding: 0 10px;
+    padding-bottom: 20px;
+}
+.Testmenials .container .circles
+{
+    text-align: center;
+    margin-bottom: 80px;
+}
+.Testmenials .container .circles span
+{
+    background-color: transparent;
+    border: 1px solid #60E5A2;
+    border-radius: 50%;
+    display: inline-block;
+    padding: 2px;
+}
+.Testmenials .container .circles span:first-child
+{
+    background-color: #60E5A2;
+}
+/* End Testmentials */
+
+/* Start Portofolio */
+.Portofolio
+{
+    background-color: #FFF;
+    overflow: hidden;
+}
+.Portofolio .container
+{
+    background-color: #FFF;
+    overflow: hidden;
+    margin-bottom: 100px;
+}
+.Portofolio .container h1
+{
+    color: #444;
+    text-align: center;
+    margin-bottom: 40px;
+}
+.Portofolio .container p
+{
+    text-align: center;
+    color: dimgrey;
+    margin-bottom: 80px;
+}
+.Portofolio .container .images
+{
+    width: 100%;
+    display: block;
+    text-align: center;
+}
+.Portofolio .container .img1
+{
+    width: 25%;
+    display: inline-block;
+    margin-right: 18px;
+    margin-bottom: 15px;
+}
+.Portofolio .container .img2
+{
+    width: 25%;
+    display: inline-block;
+    margin-right: 18px;
+    margin-bottom: 15px;
+}
+.Portofolio .container .img3
+{
+    width: 25%;
+    display: inline-block;
+    margin-right: 18px;
+    margin-bottom: 15px;
+}
+.Portofolio .container .img1 img
+{
+    width: 100%;
+}
+.Portofolio .container .img2 img
+{
+    width: 100%;
+}
+.Portofolio .container .img3 img
+{
+    width: 100%;
+}
+/* End Portofolio */
+
+/* Start Contact-Us */
+.contact-us
+{
+    background-color: #0D2420;
+    overflow: hidden;
+}
+.contact-us .container
+{
+    background-color: #0D2420;
+    overflow: hidden;
+    padding-bottom: 60px;
+}
+.contact-us .container .leftSide
+{
+    width: 50%;
+    overflow: hidden;
+    float: left;
+}
+.contact-us .container .leftSide h2
+{
+    color: white;
+    font-family: sans-serif;
+    font-weight: lighter;
+    font-size: 30px;
+    text-transform: uppercase;
+    padding-top: 50px;
+}
+.contact-us .container .leftSide p
+{
+    padding-top: 20px;
+    color: #858585;
+    width: 85%;
+}
+.contact-us .container .leftSide span
+{
+    color: #858585;
+    display: block;
+}
+.contact-us .container .rightSide
+{
+    width: 50%;
+    overflow: hidden;
+    margin-left: 100px;
+    margin-top: 100px;
+}
+.contact-us .container .rightSide label
+{
+    display: block;
+    color: whitesmoke;
+    font-size: 16px;
+    padding: 8px 0px;
+    letter-spacing: 2px;
+}
+.contact-us .container .rightSide input
+{
+    width: 65%;
+    height: 30px;
+    background-color: darkslategray;
+    border: none;
+}
+.contact-us .container .rightSide textarea
+{
+    background-color: darkslategray;
+    width: 65%;
+    height: 150px;  
+    display: block;
+    margin-bottom: 20px;
+    border: none;
+}
+.contact-us .container .rightSide button
+{
+    text-align: center;
+    font-size: 12px;
+    font-weight: bold;
+    font-family: sans-serif;
+    color: white;
+    border: none;
+    background-color: #333;
+    padding: 15px;
+    text-transform: uppercase;
+}
+.contact-us .container .rightSide button:hover
+{
+    background-color: #FFF;
+    color: darkslategray;
+    cursor: pointer;
+}
+/* End Contact-Us */
+
+/* Start Footer */
+.Footer
+{
+    background-color: #222;
+    overflow: hidden;
+}
+.Footer .container
+{
+    background-color: #222;
+    overflow: hidden;
+}
+.Footer .first
+{
+    width: 100%;
+    text-align: center;
+    color: #EEE;
+    padding-top: 30px;
+    padding-bottom: 20px;
+    letter-spacing: 2px;
+}
+.Footer .second
+{
+    background-color: #222;
+    color: #444;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.Footer .second i
+{
+    background-color: #EEE;
+    padding: 6px;
+    margin-right: 10px;
+    border: 1px solid transparent;
+    border-radius: 20px;
+    width: 18px;
+    transition: 1s;
+}
+.Footer .second i:hover
+{
+    background-color: #111;
+    color: #EEE;
+    transform: rotate(360deg);
+    cursor: pointer;
+}
+/* End Footer */
